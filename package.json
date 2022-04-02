@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.9"
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
   }
 }
