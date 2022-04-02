@@ -5,8 +5,8 @@ const USER= require('../models/users');            // yaha odel bnana important 
 
 router.get('/api/v1/user',async (req,res) => {
     const user=new USER(req.body)
-    await user.save()
-    res.send()
+    await user.save();
+    res.send(user);
 });
 
 module.exports=router;
