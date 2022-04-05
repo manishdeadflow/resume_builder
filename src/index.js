@@ -1,6 +1,6 @@
 const express = require("express");
 require('./db/mongodb.js');
-const router=require('./routers/user');
+const router=require('./routers/userDetail');
 // const USER= require('./models/users');            // yaha model bnana important hai kyu ki uske bina folder nhi bnta hai because usmein data kaise store hoga wo btana bhi important hai uske bina nhi kaam chlega 
 
 

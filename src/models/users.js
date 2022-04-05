@@ -35,5 +35,4 @@ const user=mongoose.model('USER',{
   }
 });
 
-
 module.exports = user;
