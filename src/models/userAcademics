@@ -1,0 +1,17 @@
+const mongoose=require("mongoose")
+
+const userAcademics=mongoose.model("Academics",{
+examination:{
+  type:String
+},
+institute:{
+  type:String
+},
+year:{
+  type:Number
+},
+cgpa:{
+  type:Number
+}
+
+    })
